@@ -15,7 +15,7 @@ class AsyncWorker extends Worker
 
 	public function run()
 	{
-		require realpath(__DIR__ . '\\..\\..\\..\\..\\' . 'autoload.php');
+		require realpath(__DIR__ . '\\..\\..\\..\\..\\..\\' . 'autoload.php');
 		$this->worker->start();
 	}
 }
