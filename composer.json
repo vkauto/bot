@@ -1,0 +1,50 @@
+{
+    "name": "vkauto/bot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miserable Coder",
+            "email": "miserable.coder@gmail.com"
+        }
+    ],
+    "repositories": [
+    	{
+    		"type": "git",
+    		"url": "https://github.com/vkauto/utils.git"
+    	},
+    	{
+    		"type": "git",
+    		"url": "https://github.com/vkauto/auth.git"
+    	},
+        {
+            "type": "git",
+            "url": "https://github.com/vkauto/captcha-recognition.git"
+        },
+        {
+        	"type": "git",
+        	"url": "https://github.com/vkauto/interfaces.git"
+        },
+        {
+        	"type": "git",
+        	"url": "https://github.com/vkauto/setonlineworker.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/vkauto/friendswatcherworker.git"
+        }
+    ],
+    "require": {
+    	"vkauto/utils": "dev-master",
+    	"vkauto/auth": "dev-master",
+        "vkauto/captcha-recognition": "dev-master",
+        "vkauto/interfaces": "dev-master",
+        "vkauto/setonlineworker": "dev-master",
+        "vkauto/friendswatcherworker": "dev-master"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"VKauto\\Bot\\": "src/VKauto/Bot",
+            "VKauto\\Workers\\": "src/VKauto/Workers"
+    	}
+    }
+}
