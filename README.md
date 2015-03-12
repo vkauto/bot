@@ -50,7 +50,7 @@
         "vkauto/interfaces": "dev-master",
         "vkauto/setonlineworker": "dev-master",
         "vkauto/friendswatcherworker": "dev-master",
-        "vkauto/messagewatcherworker: "dev-master",
+        "vkauto/messagewatcherworker": "dev-master",
         "vkauto/bot": "dev-master"
     }
 }
