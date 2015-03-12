@@ -36,6 +36,10 @@
         },
         {
             "type": "git",
+            "url": "https://github.com/vkauto/messagewatcherworker.git"
+        },
+        {
+            "type": "git",
             "url": "https://github.com/vkauto/bot.git"
         }
     ],
@@ -46,6 +50,7 @@
         "vkauto/interfaces": "dev-master",
         "vkauto/setonlineworker": "dev-master",
         "vkauto/friendswatcherworker": "dev-master",
+        "vkauto/messagewatcherworker: "dev-master",
         "vkauto/bot": "dev-master"
     }
 }
