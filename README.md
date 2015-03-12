@@ -77,7 +77,11 @@ $bot = new Single(Auth::directly('+79057151171', 'password'),
 	'workers' => [
 		'VKauto\Workers\SetOnlineWorker\SetOnline' => [7],
 		'VKauto\Workers\ExampleWorker\Example',
-		'VKauto\Workers\FriendsWatcherWorker\FriendsWatcher' => [1]
+		'VKauto\Workers\FriendsWatcherWorker\FriendsWatcher' => [1],
+		'VKauto\Workers\MessageWatcherWorker\MessageWatcher' => [2, [
+			'VKauto\Workers\MessageWatcherWorker\Modules\CommandProcessorModule\CommandProcessor',
+			'VKauto\Workers\MessageWatcherWorker\Modules\InfChatBotModule\InfChatBot' => ['53df5848-ac25-4c50-8bfc-e5b7e2ca3960']
+		]]
 	]
 ]);
 
